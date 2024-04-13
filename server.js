@@ -437,6 +437,13 @@ app.post('/dislike', function(req, res) {
     });
 });
 
+//404 error page
+
+app.get('*',function(req, res){
+    res.sendFile(path.resolve(__dirname,'public','404.svg'));
+});
+
+
 //listening 
 
         var port=3000;
