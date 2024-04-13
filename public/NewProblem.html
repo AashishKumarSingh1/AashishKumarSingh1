@@ -15,12 +15,17 @@
             }
         }
         .message {
-            width: 80vw;
-            height: 10vh;
-            text-align: center;
-            font-size: 18px;
-            position: relative; /* Add this */
-        }
+                width:99%; 
+                min-height: 10vh;
+                /* height:auto; */
+                max-height:20vh;
+                text-align: center;
+                font-size: 18px;
+                position: relative; 
+                border:1px solid #ccc;
+                padding-right:10vw;
+                border-radius:20px;
+            }
         .messagediv {
             margin-bottom: 10px;
             border: 1px solid #ccc;
@@ -53,15 +58,23 @@
     <nav class="navbar navbar-default">
         <div class="container-fluid">
             <div class="navbar-header">
-                <a class="navbar-brand" style="font-size: 20px;" href="#">Hello College</a>
+                <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbarcollapse" aria-expanded="false">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+                <a class="navbar-brand" style="font-size: 20px;" href="./index.html">Hello College</a>
             </div>
-            <ul class="nav navbar-nav" style="float: right; font-size: 20px;">
-                <li><a href="./index.html">Home</a></li>
-                <li><a href="./Issue.html">Your Issue</a></li>
-                <li class="active"><a>New Problem</a></li>
-                <li ><a href="./community.html">Community</a></li>
-                <li class="disabled"><a>to-solve-list</a></li>
-            </ul>
+            <div class="collapse navbar-collapse" id="navbarcollapse">
+                <ul class="nav navbar-nav navbar-right" style="font-size: 20px;">
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./Issue.html">Your Issue</a></li>
+                    <li class="active" ><a href="#">New Problem</a></li>
+                    <li><a href="./community.html">Community</a></li>
+                    <li class="disabled"><a href="#">to-solve-list</a></li>
+                </ul>
+            </div>
         </div>
     </nav>
     <div class="container-fluid">
