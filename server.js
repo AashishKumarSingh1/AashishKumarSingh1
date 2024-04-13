@@ -133,7 +133,6 @@ res.sendFile(path.resolve(__dirname, 'public', 'login.html'), function(error, re
             return;
         }
         else{
-            
             query = `SELECT 
             COALESCE(\`${username}\`.issue, community.issue) AS issue,
             GREATEST(COALESCE(\`${username}\`.upvote, 0), community.upvote) AS upvote,
@@ -141,7 +140,7 @@ res.sendFile(path.resolve(__dirname, 'public', 'login.html'), function(error, re
          FROM 
             prototypeproject.\`${username}\` AS \`${username}\`
          LEFT JOIN 
-            prototypeproject.community AS community ON \`${username}\`.issue = community.issue;
+            prototypeproject.community AS community ON \`${username}\`.issue = community.issue ORDER BY upvote desc;
 `;
 connection.query(query,function(error,result){
     if(error) throw error;
@@ -156,6 +155,7 @@ connection.query(query,function(error,result){
     
         }
         else{
+            // console.log(Data);
         responseData.push(Data); 
         }
     }

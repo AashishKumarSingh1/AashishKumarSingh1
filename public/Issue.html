@@ -139,7 +139,7 @@ xhttp.onreadystatechange = function(){
             if (response.message === 'nomessages') {
                 alert('Currently you have not post any issue!');
             } else {
-                for (var i =0;i<response.length; i++) {
+                for (var i =response.length-1;i>=0; i--) {
                     var messageData = response[i];
                     var messageDiv = document.createElement('div');
                     messageDiv.textContent = messageData.issue;
