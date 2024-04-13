@@ -122,6 +122,11 @@ app.get('/login',function(req,res){
         });
         });
         
+app.get('/photogallery',function(req,res){
+res.sendFile(path.resolve(__dirname,'public','photo-gallery.html'));
+});
+
+
         //load message
 
         app.post('/loadmessage',function(req,res){
