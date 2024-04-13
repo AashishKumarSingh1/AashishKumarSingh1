@@ -5,11 +5,13 @@
 }
 
 body {
-	background-image: linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5)),url("images/extra/backwallpaper.jpg");
+	background-image:linear-gradient(rgba(0,0,0,0),rgba(0,0,0,0.5)),url("images/extra/backwallpaper.jpg");
 	background-size: cover;
 	background-attachment: fixed;
 	display: flex;
 	justify-content: center;
+    overflow-x:hidden;
+    overflow-y:hidden;
 }
 .logo {
 	display: flex;
@@ -21,7 +23,7 @@ body {
 .form-box
 {
 	width: 380px;
-	height: 500px;
+	height: 550px;
 	position: relative;
 	margin: 6% auto;
 	background: #fff8;

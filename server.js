@@ -60,23 +60,23 @@ app.get('/login',function(req,res){
                    Registration.sendemail(username,fullname,email).then(result=>{
                              otpsent=result;
                           });
-       res.sendFile(path.resolve(__dirname,"public" ,'verify.html'),function(error,result){
+       res.sendFile(path.resolve(__dirname,'public','verify.html'),function(error,result){
            if(error) throw error;
        });
                }
                else{
-                res.send('<script>alert("Password does not match!");</script>');
-                res.send('<script>alert("Your registration to our website is pending!");</script>');
-res.sendFile(path.resolve(__dirname, 'public', 'login.html'), function(error, result) {
-    if (error) throw error;
-});
+                res.send('<script>alert("Password does not match!");alert("Your registration to our website is pending!"); window.location.href="./login.html";</script>');
+                // res.send('<script>alert("Your registration to our website is pending!");</script>');
+// res.sendFile(path.resolve(__dirname, 'public', 'login.html'), function(error, result) {
+//     if (error) throw error;
+// });
                }
            }
        else{
-        res.send('<script>alert("Username exists!");</script>');
-       res.sendFile(path.resolve(__dirname,'public','login.html'),function(error,result){
-           if(error) throw error;
-       });
+        res.send('<script>alert("Username exists!"); window.location.href="./login.html"; </script>');
+    //    res.sendFile(path.resolve(__dirname,'public','login.html'),function(error,result){
+    //        if(error) throw error;
+    //    });
        }
        })
        });
@@ -88,15 +88,15 @@ res.sendFile(path.resolve(__dirname, 'public', 'login.html'), function(error, re
         otpsent = otpsent.toString();    
         if(otpsent===otp){
     Registration.Insertion(username,fullname,email,password);
-    res.send('<script>alert("Your Account has been created!");</script');
-    res.send('<script>alert("Please do log In!");</script');
-    res.sendFile(path.resolve(__dirname,'public','login.html'),function(error,result){
-        if(error) throw error;
-    });
+    res.send('<script>alert("Your Account has been created!");alert("Please do log In!");window.location.href="./login.html"</script>');
+    // res.send('<script></script');
+    // res.sendFile(path.resolve(__dirname,'public','login.html'),function(error,result){
+    //     if(error) throw error;
+    // });
         }
         else{
-            res.send('<script> alert("OTP does not match!");</script>');
-            res.sendFile(path.resolve(__dirname,'public','login.html'));
+            res.send('<script> alert("OTP does not match!");window.location.href="./login.html"</script>');
+            // res.sendFile(path.resolve(__dirname,'public','login.html'));
         }
     });
 
@@ -109,7 +109,7 @@ res.sendFile(path.resolve(__dirname, 'public', 'login.html'), function(error, re
         connection.query(query,function(error,result){
             if(error) throw error;
         if(result.length===0){
-            res.send(`<script>alert("Username does not exist!"); window.location.href = '/login.html';</script>`);
+            res.send(`<script>alert("Username does not exist!"); window.location.href = './login.html';</script>`);
             return;
         }
         

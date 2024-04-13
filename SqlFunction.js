@@ -43,7 +43,7 @@ const x = generateOTP();
             if (error) {
                 reject(error);
             } else {
-                console.log("Email sent!");
+                // console.log("Email sent!");
                 resolve(x); 
             }
         });
@@ -52,7 +52,7 @@ const x = generateOTP();
 function Insertion(username,fullname,email,password){
 var query;
                 query=`INSERT INTO userinfo(userName,name,eMail,password) VALUES ('${username}','${fullname}','${email}','${password}')`;
-                console.log(query);
+                // console.log(query);
                 connection.query(query,function(error,result){
                     if(error) throw error;
                   console.log("data inserted successfully!");

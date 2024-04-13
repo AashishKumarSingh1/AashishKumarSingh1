@@ -45,18 +45,18 @@
 				<div class="instead">
 					<h3>or</h3>
 				</div>
-				<button class="connect" onclick="google()">
+				<button class="connect"">
 					<img src="images/icon/google.png"><span>Sign in with Google</span>
 				</button>
 			</div>
 			
 			<!-- Registration Form -->
 			<form id="register" action="/register" method="post" class="input-group">
-				<input type="text" class="input-field" placeholder="Full Name"id="username" name="username" required="required">
+				<input type="text" class="input-field" placeholder="Username"id="username" name="username" required="required">
 				<br>
 				<span id="usernameError" style="color:red"></span><br>
 				<input type="email" class="input-field" placeholder="Email Address" name="email" required="required">
-				<input type="text" name="fullname" required="required" placeholder="Name">
+				<input type="text" class="input-field" placeholder="Full-Name" name="fullname" required="required" placeholder="Name">
 				<input type="password" class="input-field" placeholder="Create Password" name="password" required="required">
 				<input type="password" class="input-field" placeholder="Confirm Password" name="cpassword" required="required">
 				<input type="checkbox" class="check-box" id="chkAgree" onclick="goFurther()">I agree to the Terms & Conditions
