@@ -437,7 +437,49 @@ app.post('/dislike', function(req, res) {
     });
 });
 
-//404 error page
+//////////////////////////////////////
+//Creating Dynamic Layout
+/////////////////////////////////////
+
+app.post('/realtimechange', function(req, res){
+    var query = `SELECT userName FROM userinfo`;
+    connection.query(query, function(error, result){
+        if(error) throw error;
+        var usercount = result.length;
+
+        var query = `SELECT id FROM community`;
+        connection.query(query, function(error, result){
+            if(error) throw error;
+            var communitycount = result.length;
+
+            var data = {
+                usercount: usercount,
+                communitycount: communitycount
+            };
+            res.send(data);
+        });
+    });
+});
+/////////////////////////////////////////////
+//competitive programming
+////////////////////////////////////////////
+app.get('/computercourse', function(req, res){
+    res.sendFile(path.resolve(__dirname, 'public', 'computer_courses.html'));
+});
+
+/////////////////////////////////////////////
+//Merchandize router
+////////////////////////////////////////////
+
+app.get('/merchandise',function(req,res){
+res.sendFile(path.resolve(__dirname,'public','merchandise.html'));
+});
+
+/////////////////////////////////////////////////
+//addying group communication features
+////////////////////////////////////////////////
+
+//404 error page 
 
 app.get('*',function(req, res){
     res.sendFile(path.resolve(__dirname,'public','404.svg'));

@@ -73,6 +73,13 @@ var query;
                         console.log("Table created successfully.");
                     }
                 });
-                
+                query=`CREATE TABLE ??{
+                    id INT PRIMARY KEY AUTO-INCREMENT,
+                    joinedgroupname VARCHAR(100) NOT NULL,
+                    time TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+                }`;
+                connection.query(query,[username],function(error,result){
+                    if(error) throw error;
+                });
             }
        
