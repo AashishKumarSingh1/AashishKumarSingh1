@@ -518,7 +518,21 @@ app.post('/showmessage',function(req,res){
 
 });
 
+//creating a group
+app.post('/creatinggroup',function(req,res){
+var groupName = req.body.groupname;
+username=req.body.username;
+query=`CREATE TABLE \`${groupName}\`(id INT PRIMARY KEY AUTO_INCREMENT,message VARCHAR(500),username VARCHAR(100), time TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP)`;
+connection.query(query,function(error,result){
+data={
+created:'yes',
 
+}
+res.send(data);
+});
+});
+
+//retreiving the group content
 
 
 /////////////////////////////////////////////////////

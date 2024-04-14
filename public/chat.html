@@ -127,7 +127,7 @@
         <div class="messages"></div>
         <div class="userMessageSpace">
             <form id="messageForm" class="form">
-                <textarea id="message" name="messageinput" class="message" placeholder="Type Your Issue"></textarea>
+                <textarea id="message" name="messageinput" id="message1" class="message" placeholder="Type Your message"></textarea>
                 <button type="submit" class="submit"><i class="fa fa-bullhorn"></i>Submit</button>
             </form>
         </div>
@@ -157,6 +157,32 @@
         alert('Please log in to continue!');
         alert('Redirecting to the Home Page!');
         window.location.href = './login.html'; 
+    }
+    var groupname=document.getElementById('message1'),innerHTML;
+    function creategroup(groupname){
+var xhttp=XMLHttpRequest();
+xhttp.open('POST','/creatinggroup',true);
+xhttp.setRequestHeader('Content-Type','application/JSON');
+var data={
+    username:username,
+    groupname:groupname
+};
+xhttp.onreadystatechange=function(){
+    if(this.readyState==4){
+        var response=JSON.parse(this.responseText());
+        if(response.created=='yes'){
+            alert("Group has been Created!");
+        }
+        else if(response.exist==yes){
+            alert("Group already exists!");
+            alert("Please create with a different name!");
+        }
+        else{
+            alert("Some error occured while creatin a group!");
+        }
+    }
+    xhttp.send(data);
+}
     }
         function getgroupinfoonload(username){
 var xhttp=XMLHttpRequest();
