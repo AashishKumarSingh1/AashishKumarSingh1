@@ -479,8 +479,36 @@ res.sendFile(path.resolve(__dirname,'public','merchandise.html'));
 //addying group communication features
 ////////////////////////////////////////////////
 
-//404 error page 
+//sending group communication chat!
+ app.post('/sendgroupchat',function(req,res){
+username=req.body.username;
+query=`SELECT joinedgroupname FROM '${username}Group'`;
+connection.query(query,function(error,result){
+    if(error) throw error;
+    if(result.length == 0){
+        data = {
+           message:'nomessage'
+        };
+        res.send(data);
+    } else {
+        var responseData = [];
+        for(var i = 0; i < result.length; i++) {
+            var messageData = {
+                group:result[i].joinedgroupname
+            };
+            responseData.push(messageData);
+        }
+        res.send(responseData); 
+    }
 
+});
+ });
+
+
+
+/////////////////////////////////////////////////////
+//404 error page 
+/////////////////////////////////////////////////////
 app.get('*',function(req, res){
     res.sendFile(path.resolve(__dirname,'public','404.svg'));
 });
