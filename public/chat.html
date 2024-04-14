@@ -159,6 +159,7 @@
         window.location.href = './login.html'; 
     }
     var groupname=document.getElementById('message1'),innerHTML;
+    document.getElementById('submit1').addEventListener('click',createdgroup(groupname));
     function creategroup(groupname){
 var xhttp=XMLHttpRequest();
 xhttp.open('POST','/creatinggroup',true);

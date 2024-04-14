@@ -436,6 +436,12 @@ app.post('/dislike', function(req, res) {
         }
     });
 });
+//////////////////////////////////////
+//faq addition
+/////////////////////////////////////
+app.get('/faq',function(req,res){
+res.sendFile(path.resolve(__dirname,'public','faq.html'));
+});
 
 //////////////////////////////////////
 //Creating Dynamic Layout
@@ -487,6 +493,9 @@ res.sendFile(path.resolve(__dirname,'public','merchandise.html'));
 //addying group communication features
 ////////////////////////////////////////////////
 
+app.get('/communicationchat',function(req,res){
+res.sendFile(path.resolve(__dirname,'public','chat.html'));
+});
 //sending group communication chat!
 app.post('/sendgroupchat', function(req, res) {
      username = req.body.username;
@@ -520,17 +529,31 @@ app.post('/showmessage',function(req,res){
 
 //creating a group
 app.post('/creatinggroup',function(req,res){
-var groupName = req.body.groupname;
-username=req.body.username;
-query=`CREATE TABLE \`${groupName}\`(id INT PRIMARY KEY AUTO_INCREMENT,message VARCHAR(500),username VARCHAR(100), time TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP)`;
-connection.query(query,function(error,result){
-data={
-created:'yes',
-
-}
-res.send(data);
-});
-});
+    app.post('/creatinggroup', function(req, res) {
+        var groupName = req.body.groupname;
+        var username = req.body.username;
+    
+        if (!groupName) {
+            return res.status(400).json({ error: 'Group name is required' });
+        }
+    
+        var query = `CREATE TABLE IF NOT EXISTS \`${groupName}\` (
+            id INT PRIMARY KEY AUTO_INCREMENT,
+            message VARCHAR(500),
+            username VARCHAR(100),
+            time TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+        )`;
+        
+        connection.query(query, function(error, result) {
+            if (error) {
+                console.error('Error creating group table:', error);
+                return res.status(500).json({ error: 'Internal server error' });
+            }
+            
+            res.json({ created: 'yes' });
+        });
+    });
+    
 
 //retreiving the group content
 
