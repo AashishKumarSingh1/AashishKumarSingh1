@@ -31,6 +31,9 @@ var transporter=nodemailer.createTransport({
     },
 });
 var username,data;
+app.get('/',function(req,res){
+res.sendFile(path.resolve(__dirname,'public','index.html'));
+});
 app.get('/login',function(req,res){
     res.sendFile(path.resolve(__dirname,'public' ,'login.html'));
     });
@@ -114,7 +117,7 @@ app.get('/login',function(req,res){
         }
         
         if (result[0].password == password) {
-            res.cookie("username", username).send(`<script>alert("You are logged in!"); window.location.href = './issue.html';</script>`);        
+            res.cookie("username", username).send(`<script>alert("You are logged in!"); window.location.href = './index.html';</script>`);        
         }
             else{
                 res.send(`<script>alert("Password does not match!"); window.location.href = './login.html';</script>`);
@@ -528,31 +531,31 @@ app.post('/showmessage',function(req,res){
 });
 
 //creating a group
-app.post('/creatinggroup',function(req,res){
-    app.post('/creatinggroup', function(req, res) {
-        var groupName = req.body.groupname;
-        var username = req.body.username;
+// app.post('/creatinggroup',function(req,res){
+//     app.post('/creatinggroup', function(req, res) {
+//         var groupName = req.body.groupname;
+//         var username = req.body.username;
     
-        if (!groupName) {
-            return res.status(400).json({ error: 'Group name is required' });
-        }
+//         if (!groupName) {
+//             return res.status(400).json({ error: 'Group name is required' });
+//         }
     
-        var query = `CREATE TABLE IF NOT EXISTS \`${groupName}\` (
-            id INT PRIMARY KEY AUTO_INCREMENT,
-            message VARCHAR(500),
-            username VARCHAR(100),
-            time TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
-        )`;
+//         var query = `CREATE TABLE IF NOT EXISTS \`${groupName}\` (
+//             id INT PRIMARY KEY AUTO_INCREMENT,
+//             message VARCHAR(500),
+//             username VARCHAR(100),
+//             time TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP
+//         )`;
         
-        connection.query(query, function(error, result) {
-            if (error) {
-                console.error('Error creating group table:', error);
-                return res.status(500).json({ error: 'Internal server error' });
-            }
+//         connection.query(query, function(error, result) {
+//             if (error) {
+//                 console.error('Error creating group table:', error);
+//                 return res.status(500).json({ error: 'Internal server error' });
+//             }
             
-            res.json({ created: 'yes' });
-        });
-    });
+//             res.json({ created: 'yes' });
+//         });
+//     });
     
 
 //retreiving the group content
@@ -569,6 +572,7 @@ app.get('*',function(req, res){
 //listening 
 
         var port=3000;
+
 app.listen(port,function(error,result){
     if(error) throw error;
     console.log(`Server is working of the port ${port}`);
