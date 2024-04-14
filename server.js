@@ -460,6 +460,14 @@ app.post('/realtimechange', function(req, res){
         });
     });
 });
+
+/////////////////////////////////////////////
+//update.html
+////////////////////////////////////////////
+app.get('/update',function(req,res){
+res.sendFile(path.resolve(__dirname,'public','update.html'));
+});
+
 /////////////////////////////////////////////
 //competitive programming
 ////////////////////////////////////////////
@@ -480,29 +488,36 @@ res.sendFile(path.resolve(__dirname,'public','merchandise.html'));
 ////////////////////////////////////////////////
 
 //sending group communication chat!
- app.post('/sendgroupchat',function(req,res){
-username=req.body.username;
-query=`SELECT joinedgroupname FROM '${username}Group'`;
-connection.query(query,function(error,result){
-    if(error) throw error;
-    if(result.length == 0){
-        data = {
-           message:'nomessage'
-        };
-        res.send(data);
-    } else {
-        var responseData = [];
-        for(var i = 0; i < result.length; i++) {
-            var messageData = {
-                group:result[i].joinedgroupname
-            };
-            responseData.push(messageData);
+app.post('/sendgroupchat', function(req, res) {
+     username = req.body.username;
+     query = `SELECT joinedgroupname FROM \`${username}Group\``;
+
+    connection.query(query, function(error, result) {
+        if (error) {
+            throw error;
         }
-        res.send(responseData); 
-    }
+        if (result.length === 0) {
+            const data = {
+                message: 'nomessage'
+            };
+            res.send(data);
+        } else {
+            const responseData = [];
+            for (let i = 0; i < result.length; i++) {
+                const messageData = {
+                    group: result[i].joinedgroupname
+                };
+                responseData.push(messageData);
+            }
+            res.send(responseData);
+        }
+    });
+});
+
+app.post('/showmessage',function(req,res){
 
 });
- });
+
 
 
 

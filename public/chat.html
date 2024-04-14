@@ -174,21 +174,51 @@ xhttp.onreadystatechange=function(){
             return;
         }
         for(var i=response.length-1;i>=0;i--){
-            var messageData = response[i];
                     var messageDiv = document.createElement('div');
-                    messageDiv.textContent = messageData.issue;
+                    messageDiv.textContent = response.group;
                     messageDiv.className = 'messagediv';
                     var groupDiv = document.createElement('div');
                     groupDiv.className = 'group';
-                    var likeButton = document.createElement('button');
+                    // var likeButton = document.createElement('button');
                     var messagesContainer = document.querySelector('.messages');
             messagesContainer.insertBefore(messageDiv, messagesContainer.firstChild);
         }
     }
 }
         }
-        document.addEventListener('DOMContentLoaded',getgroupinfoonload);
-       
+        document.addEventListener('DOMContentLoaded',getgroupinfoonload(username));
+        document.addEventListener('DOMContentLoaded', function(){
+    var messagesContainer = document.querySelector('.messages');
+    messagesContainer.addEventListener('click', function(event) {
+    var messageDiv = event.target.closest('.messagediv');
+    var xhttp = new XMLHttpRequest();
+xhttp.open('POST', '/showmessage', true);
+xhttp.setRequestHeader('Content-Type', 'application/json');
+var data = {
+    username: username,
+    message: message 
+};
+xhttp.onreadystatechange = function() {
+    if (this.readyState == 4 && this.status == 200) {
+        var response = JSON.parse(this.responseText);
+        if(response.data==='nomessage'){
+            alert('currently no message is post!');
+            return;
+        }
+        for(var i=response.length-1;i>=0;i--){
+                    var messageDiv = document.createElement('div');
+                    messageDiv.textContent = response.group;
+                    messageDiv.className = 'messagediv';
+                    var groupDiv = document.createElement('div');
+                    groupDiv.className = 'group';
+                    var messagesContainer = document.querySelector('.messages');
+            messagesContainer.insertBefore(messageDiv, messagesContainer.firstChild);
+        }
+    }
+}
+    });
+});
+
     </script>
 </body>
 </html>
