@@ -10,9 +10,19 @@ Installation steps:
 2)npm init
 3)Install all the node modules as listed in the dictionary
 4)In the server.js file change the database connection configuration.
-5)Now in the terminal write node server.js
-6)Now you can see our website at http://127.0.0.1:3000
-7)That's it!
+5)In the MySql Workbench write a command : 
+
+CREATE TABLE community(
+id INT PRIMARY KEY AUTO_INCREMENT,
+issue VARCHAR(1000) NOT NULL,
+time TIMESTAMP DEFAULT CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP,
+date DATETIME DEFAULT CURRENT_TIMESTAMP,
+upvote INT DEFAULT 0,
+downvote INT DEFAULT 0);
+
+6)Now in the terminal write node server.js
+7)Now you can see our website at http://127.0.0.1:3000
+
 
 Libraries and dependancies:
 mysql,express,nodemailer,body-parser,cookie-parser,path
