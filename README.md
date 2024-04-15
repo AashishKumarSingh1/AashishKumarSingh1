@@ -2,9 +2,9 @@ Hello everyone this side team Unity Squad,
 We have created a Web-Application (Hello college)
 Description:User-Friendly Full-Stack-Website , acting as a interface to solve user's problem and it will also aims to create community for different domains ,Our website also provides important materials and resources for the student.
 Tech stack used:
-Backened:Express JS,Node JS,AJAX
-DataBase:MySql
-Frontened:JavaScript,JQuery,BootStrap,HTML,CSS
+Backened:Express JS,Node JS,AJAX;
+DataBase:MySql;
+Frontened:JavaScript,JQuery,BootStrap,HTML,CSS;
 Installation steps:
 1)Clone the project from My-Repository
 2)npm init
