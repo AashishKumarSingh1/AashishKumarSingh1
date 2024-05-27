@@ -1,6 +1,6 @@
 <h1>🏢Hello College Web Application</h1>
 
-<p>Welcome to Hello College, a user-friendly full-stack web application designed to solve users' problems and create a community for different domains. Our website also provides important materials and resources for students.</p>
+<p>👋Welcome to Hello College, a user-friendly full-stack web application designed to solve users' problems and create a community for different domains. Our website also provides important materials and resources for students.</p>
 <hr>
 <h3>Tech Stack Used: </h3>
 <ul>
@@ -50,5 +50,5 @@
   <li>Upvote and downvote system for community issues</li>
 </ul>
 <h3>Contact</h3>
-<p>For any queries or suggestions, contact us at <a mailto:"aashishs.ug23.cs@nitp.ac.in">Aashish Kumar Singh</a></p>
+<p>For any queries or suggestions, contact us at aashishs.ug23.cs@nitp.ac.in</p>
 
