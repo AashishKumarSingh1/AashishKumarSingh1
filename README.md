@@ -1,4 +1,4 @@
-<h1>Hello College Web Application</h1>
+<h1>👋Hello College Web Application</h1>
 
 <p>Welcome to Hello College, a user-friendly full-stack web application designed to solve users' problems and create a community for different domains. Our website also provides important materials and resources for students.</p>
 <hr>
