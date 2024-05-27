@@ -44,7 +44,7 @@ I am always excited to connect with like-minded individuals, collaborate on proj
 
 - **Email**: [aashishs.ug23.cs@nitp.ac.in](mailto:aashishs.ug23.cs@nitp.ac.in)
 - **LinkedIn**: [LinkedIn Profile](<www.linkedin.com/in/aashish-kumar-singh-7110b02a9>)
-- **GitHub**: [GitHub Profile]((https://github.com/AashishKumarSingh1/AashishKumarSingh1))
+- **GitHub**: [GitHub Profile](<https://github.com/AashishKumarSingh1/AashishKumarSingh1>)
 
 ---
 
