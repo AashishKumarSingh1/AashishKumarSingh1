@@ -41,7 +41,7 @@
   <li>path</li>
 </ul>
 <h3>Overview Video</h3>
-<p>For a detailed overview of the application , please watch the <a href="https://www.loom.com/share/f763872a339c407aa0e3ebcdfe606ab9?sid=9dba8129-af8d-499f-9d01-07ef5b0fe921">video.</a></p>
+<p>For a detailed overview of the application , please watch the <a target="_blank" href="https://www.loom.com/share/f763872a339c407aa0e3ebcdfe606ab9?sid=9dba8129-af8d-499f-9d01-07ef5b0fe921">video.</a></p>
 <h3>Features</h3>
 <ul>
   <li>User-friendly interface.</li>
@@ -51,4 +51,4 @@
   <li>Upvote and downvote system for community issues</li>
 </ul>
 <h3>Contact</h3>
-<p>For any queries or suggestions, contact us at [aashishs.ug23.cs@nitp.ac.in]</p>
+<p>For any queries or suggestions, contact us at aashishs.ug23.cs@nitp.ac.in</p>
