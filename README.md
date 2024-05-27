@@ -50,4 +50,6 @@
   <li>Upvote and downvote system for community issues</li>
 </ul>
 <h3>Contact</h3>
-<p>For any queries or suggestions, contact us at aashishs.ug23.cs@nitp.ac.in</p>
+## Contact
+For any queries or suggestions, contact us at [aashishs.ug23.cs@nitp.ac.in](mailto:aashishs.ug23.cs@nitp.ac.in).
+
