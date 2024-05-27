@@ -24,8 +24,7 @@
     upvote INT DEFAULT 0,
     downvote INT DEFAULT 0
 );
-    and 
-    CREATE TABLE 
+   
   </pre>
   </li>
   <li>Run the command node server.js in the code editor(VS Code)</li>
