@@ -8,7 +8,7 @@
   <li><b>Database:</b>My SQL</li>
   <li><b>Frontend:</b>JavaScript, jQuery, Bootstrap, HTML, CSS</li>
 </ul>
-<h3>Installation Steps:</h3>
+<h3>🪧Installation Steps:</h3>
 <ol>
   <li>Clone the Project</li>
   <li>npm init</li>
@@ -30,7 +30,7 @@
   <li>Run the command node server.js in the code editor(VS Code)</li>
   <li>Now Open your Browser and go to http://127.0.0.1:3000</li>
 </ol>
-<h3>Libraries and Dependencies</h3>
+<h3>✅Libraries and Dependencies</h3>
 <ul>
   <li>mysql</li>
   <li>express</li>
@@ -39,7 +39,7 @@
   <li>cookie-parser</li>
   <li>path</li>
 </ul>
-<h3>Overview Video</h3>
+<h3>▶Overview Video</h3>
 <p>For a detailed overview of the application , please watch the <a target="_blank" href="https://www.loom.com/share/f763872a339c407aa0e3ebcdfe606ab9?sid=9dba8129-af8d-499f-9d01-07ef5b0fe921">video.</a></p>
 <h3>Features</h3>
 <ul>
@@ -49,6 +49,12 @@
 <li>Added OTP verification through G-Mail account for the user authentication.</li>
   <li>Upvote and downvote system for community issues</li>
 </ul>
-<h3>Contact</h3>
-<p>For any queries or suggestions, contact us at aashishs.ug23.cs@nitp.ac.in</p>
+<h3>🤝Contact</h3>
+<p>For any queries or suggestions</p>
+
+- **Email**: [aashishs.ug23.cs@nitp.ac.in](mailto:aashishs.ug23.cs@nitp.ac.in)
+- **LinkedIn**: [LinkedIn Profile](<www.linkedin.com/in/aashish-kumar-singh-7110b02a9>)
+- **GitHub**: [GitHub Profile](<https://github.com/AashishKumarSingh1/AashishKumarSingh1>)
+<hr>
+<h2>👨‍🦱Thank you for visiting this project "Hello College".</h2>
 
