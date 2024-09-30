@@ -6,6 +6,8 @@ Welcome to my GitHub profile! I am Aashish Kumar Singh, a passionate software de
 
 I am currently pursuing my degree in Computer Science at the National Institute of Technology, Patna (NIT Patna). My journey in the tech world has been driven by curiosity and a love for problem-solving. I enjoy exploring new technologies and applying my knowledge to build useful applications.
 
+## My Stats
+[![trophy](https://github-profile-trophy.vercel.app/?username=AashishKumarSingh1&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 ## Skills
 
 ### Programming Languages
