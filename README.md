@@ -8,6 +8,7 @@ I am currently pursuing my degree in Computer Science at the National Institute 
 
 ## My Stats
 [![trophy](https://github-profile-trophy.vercel.app/?username=AashishKumarSingh1&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+<img src="https://github-readme-streak-stats.herokuapp.com/?user=AashishKumarSingh1&theme=dark&hide_border=true" alt="AashishKumarSingh1's GitHub Stats" />
 ## Skills
 
 ### Programming Languages
