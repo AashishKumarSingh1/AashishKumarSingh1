@@ -1,10 +1,10 @@
 # Aashish Kumar Singh
 
-Welcome to my GitHub profile! I am Aashish Kumar Singh, a passionate software developer with a strong interest in web development.
+👋Hola Developers! My Self Aashish Kumar Singh,a passionate Developer with Keen Interest in Web-Dev and AI/ML.
 
 ## About Me
 
-I am currently pursuing my degree in Computer Science at the National Institute of Technology, Patna (NIT Patna). My journey in the tech world has been driven by curiosity and a love for problem-solving. I enjoy exploring new technologies and applying my knowledge to build useful applications.
+I am currently pursuing my degree in Computer Science at the National Institute of Technology, Patna (NIT Patna). I enjoy exploring new technologies and applying my knowledge to build useful applications.
 
 ## My Stats
 [![trophy](https://github-profile-trophy.vercel.app/?username=AashishKumarSingh1&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
@@ -26,21 +26,29 @@ I am currently pursuing my degree in Computer Science at the National Institute 
 ## Skills
 
 ### Programming Languages
-
+- **Python**
 - **JavaScript**
 - **Java**
-- **C/C++**
+- **C**
+
+### AI/ML
+-**Open CV**
+-**Pytorch**
+-**Numpy**
+-**Pandas**
+-**Matplotlib**
+-**Flask**(For API calling)
 
 ### Web Development
 
-- **Frontend**: HTML5, CSS3, JavaScript, jQuery, Bootstrap,AJAX,Tailwind CSS,React JS
-- **Backend**: Node.js, Express.js
-- **Database**: MySQL
+- **Frontend**: HTML5, CSS3, JavaScript, jQuery, Bootstrap,Material UI,AJAX,Tailwind CSS,React JS,Next JS
+- **Backend**: Node.js, Express.js,TypeScript
+- **Database**: MySQL,Mongo DB
 
 ### Other Technologies
 
 - **Version Control**: Git, GitHub
-- **Tools**: MySQL Workbench, VS Code
+- **Tools**: MySQL Workbench, VS Code,Mongo DB Atlas
 
 ## Projects
 
