@@ -69,7 +69,7 @@ I am currently pursuing my degree in **Computer Science** at the **National Inst
 - **AI/ML Frameworks**: OpenCV, PyTorch, TensorFlow
 - **Databases**: MySQL, MongoDB
 - **Tools**: Git, GitHub, MySQL Workbench, VS Code, MongoDB Atlas
-- **Deployment**: Heroku, Netlify
+- **Deployment**: Vercel,On Render
 
 ---
 
