@@ -74,7 +74,9 @@ I am always excited to connect with like-minded individuals, collaborate on proj
 ---
 
 Thank you for visiting my profile! I look forward to connecting with you.
+
 <br />
+
 <a href="https://visitcount.itsvg.in">
-  <img src="https://visitcount.itsvg.in/api?id=AashishKumarSingh1&label=Profile%20Views&color=9&icon=9&pretty=false" />
+  <img src="https://visitcount.itsvg.in/api?id=AashishKumarSingh1&label=Profile%20Views&color=8&icon=0&pretty=false" />
 </a>
