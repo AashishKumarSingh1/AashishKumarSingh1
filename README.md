@@ -106,6 +106,4 @@ Thank you for visiting my profile! I look forward to connecting with you. Let’
 ---
 
 ### Profile Views
-<a href="https://visitcount.itsvg.in">
-  <img src="https://visitcount.itsvg.in/api?id=AashishKumarSingh1&label=Profile%20Views&color=8&icon=0&pretty=false" />
-</a>
+![](https://komarev.com/ghpvc/?username=AashishKumarSingh1&color=green)
