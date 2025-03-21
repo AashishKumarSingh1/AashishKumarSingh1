@@ -19,7 +19,6 @@ I am currently pursuing my degree in **Computer Science and Engineering** at the
   <img src="https://github.com/user-attachments/assets/8fde397b-80aa-4e52-bbbe-f3f49c2d6efc" width="100">
   <img src="https://github.com/user-attachments/assets/36f50d8d-ce0a-470f-abb6-d945fc66727d" width="100">
   <img src="https://github.com/user-attachments/assets/3f9a05b4-80fa-4bff-a7ad-ff90e874aa71" width="100">
-  <br>
   <img src="https://github.com/user-attachments/assets/44b95bd1-1541-4a2d-a4eb-240fe3a904aa" width="100">
   <img src="https://github.com/user-attachments/assets/a6d3961d-717a-4fcc-8624-990e1e30445a" width="100">
   <img src="https://github.com/user-attachments/assets/4393229d-fad0-45d0-ae2d-e9af1896970c" width="100">
@@ -29,7 +28,6 @@ I am currently pursuing my degree in **Computer Science and Engineering** at the
   <img src="https://github.com/user-attachments/assets/b368df16-6a50-4eef-b276-92071f862fc3" width="100">
   <img src="https://github.com/user-attachments/assets/02f97d9f-4a64-40ef-94a2-9ef0fe23b368" width="100">
   <img src="https://github.com/user-attachments/assets/c6ce6c97-b830-4319-a45e-72feb4f4a673" width="100">
-  <br>
   <img src="https://github.com/user-attachments/assets/f0d008a3-d18d-412b-afde-311890b06f7d" width="100">
   <img src="https://github.com/user-attachments/assets/58327c1e-532a-48b2-8404-9f3d78e060df" width="100">
   <img src="https://github.com/user-attachments/assets/467b5ec6-a797-4ef6-9869-13a11d33ec4c" width="100">
