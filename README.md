@@ -6,7 +6,9 @@ I'm a passionate developer & AI enthusiast with expertise in Full-Stack Web Deve
 
 ## About Me
 
-I am currently pursuing my degree in **Computer Science and Engineering** at the **National Institute of Technology, Patna (NIT Patna)**. I enjoy exploring new technologies and applying my knowledge to build useful and impactful applications.
+I am a second-year student pursuing my degree in **Computer Science and Engineering** at the **National Institute of Technology, Patna (NIT Patna)**.
+<br /><br />
+**Fun Fact**-I enjoy exploring new technologies and applying my knowledge to build useful and impactful applications.
 
 ## My Expertise Includes in
 <p align="">
