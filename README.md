@@ -41,7 +41,7 @@ I am a second-year student pursuing my degree in **Computer Science and Engineer
 
 ## My GitHub Stats
 
-<!--  [![trophy](https://github-profile-trophy.vercel.app/?username=AashishKumarSingh1&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy) -->
+  [![trophy](https://github-profile-trophy.vercel.app/?username=AashishKumarSingh1&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
 
 
 <picture>
