@@ -1,50 +1,88 @@
-# 👋 Hi, I'm Aashish!
+<h1 align="center">Hi 👋, I'm Aashish Singh</h1>
+<h3 align="center">Full-Stack Web Developer | DevOps Engineer | AI/ML Enthusiast | Generative AI | Open Source Contributor</h3>
 
-## 💻 Full-Stack Developer | AI & ML Enthusiast | Generative AI | Open Source Contributor
+<div align="center">
 
-I'm a passionate developer & AI enthusiast with expertise in Full-Stack Web Development, Machine Learning, and Generative AI. I love working on Next.js, Express.js,Flask and deep learning frameworks like TensorFlow & Keras to create innovative and scalable solutions.
+[![🌐 Portfolio](https://img.shields.io/badge/Portfolio-%230077B5?style=for-the-badge)](https://aashishsingh.tech)
+[![📧 Email](https://img.shields.io/badge/Email-D14836?style=for-the-badge)](mailto:aashishs.ug23.cs@nitp.ac.in)
+[![🔗 LinkedIn](https://img.shields.io/badge/LinkedIn-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/aashish-kumar-singh-7110b02a9/)
+[![🐙 GitHub](https://img.shields.io/badge/GitHub-171515?style=for-the-badge&logo=github&logoColor=white)](https://github.com/AashishKumarSingh1)
 
-## About Me
+</div>
 
-I am a second-year student pursuing my degree in **Computer Science and Engineering** at the **National Institute of Technology, Patna (NIT Patna)**.
-<br /><br />
-**Fun Fact**-I enjoy exploring new technologies and applying my knowledge to build useful and impactful applications.
 
-## My Expertise Includes in
-<p align="">
-  <img src="https://github.com/user-attachments/assets/ed3db1e5-730d-4241-95b8-d2ad43da8b65" width="100">
-  <img src="https://github.com/user-attachments/assets/441ac7b8-907b-4d4c-969a-e55dc10bb18c" width="100">
-  <img src="https://github.com/user-attachments/assets/990b574d-eb00-4a39-a3ec-a88a63cbd843" width="100">
-  <img src="https://github.com/user-attachments/assets/ce119a2b-d90f-4a88-a4f5-8c764509b95d" width="100">
-  <img src="https://github.com/user-attachments/assets/b82689e9-3a94-4bd3-b29f-3ff760c2e54f" width="100">
-  <img src="https://github.com/user-attachments/assets/ddd40827-2862-44de-bb48-e7fec6466db6" width="100">
-  <img src="https://github.com/user-attachments/assets/8fde397b-80aa-4e52-bbbe-f3f49c2d6efc" width="100">
-  <img src="https://github.com/user-attachments/assets/36f50d8d-ce0a-470f-abb6-d945fc66727d" width="100">
-  <img src="https://github.com/user-attachments/assets/3f9a05b4-80fa-4bff-a7ad-ff90e874aa71" width="100">
-  <img src="https://github.com/user-attachments/assets/44b95bd1-1541-4a2d-a4eb-240fe3a904aa" width="100">
-  <img src="https://github.com/user-attachments/assets/a6d3961d-717a-4fcc-8624-990e1e30445a" width="100">
-  <img src="https://github.com/user-attachments/assets/4393229d-fad0-45d0-ae2d-e9af1896970c" width="100">
-  <img src="https://github.com/user-attachments/assets/8c76cfd6-f0ee-45f6-bd4b-41b36b38d6d1" width="100">
-  <img src="https://github.com/user-attachments/assets/75190c2a-31be-4e1c-814e-9675383d80ab" width="100">
-  <img src="https://github.com/user-attachments/assets/b6872803-abc7-4a65-9ed5-d0b02f1f7e61" width="100">
-  <img src="https://github.com/user-attachments/assets/b368df16-6a50-4eef-b276-92071f862fc3" width="100">
-  <img src="https://github.com/user-attachments/assets/02f97d9f-4a64-40ef-94a2-9ef0fe23b368" width="100">
-  <img src="https://github.com/user-attachments/assets/c6ce6c97-b830-4319-a45e-72feb4f4a673" width="100">
-  <img src="https://github.com/user-attachments/assets/f0d008a3-d18d-412b-afde-311890b06f7d" width="100">
-  <img src="https://github.com/user-attachments/assets/58327c1e-532a-48b2-8404-9f3d78e060df" width="100">
-  <img src="https://github.com/user-attachments/assets/467b5ec6-a797-4ef6-9869-13a11d33ec4c" width="100">
-  <img src="https://github.com/user-attachments/assets/18147418-b304-4b3c-a8b0-667c40c686aa" width="100">
-  <img src="https://github.com/user-attachments/assets/d3af5706-f4ba-4b83-a613-e7eca9e03aa7" width="100">
-  <img src="https://github.com/user-attachments/assets/0e8dba77-1b2f-47cf-b67f-04cecfcba00c" width="100">
-  <img src="https://github.com/user-attachments/assets/dec20095-5021-44b3-acd5-f9c7e2282979" width="100">
+<p align="center">
+  <img src="https://komarev.com/ghpvc/?username=AashishKumarSingh1&label=Profile%20views&color=0e75b6&style=flat" alt="Profile views" />
+  <img src="https://img.shields.io/github/followers/AashishKumarSingh1?label=Follow&style=social" alt="GitHub Followers" />
 </p>
 
-## My GitHub Stats
+---
 
-  [![trophy](https://github-profile-trophy.vercel.app/?username=AashishKumarSingh1&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+## 🧑‍💻 Aashish.exe - System Online ✅
 
+- 🎓 Pre-final year **CSE student** at **NIT Patna**
+- 🚀 Passionate about **Full-Stack Dev**, **DevOps**, **Cloud Engineering**, and **AI/ML**
+- 🧠 Exploring **Spring Boot**, **Langchain**, **Vision Transformers**, and **Generative AI Pipelines**
+- ☁️ Skilled in **AWS**, **Docker**, **Cloud-Native** Architectures
+- 👨‍💻 **Web Team Lead** – NITP Official Web Team
+- 🏆 **Ex-SDE-1 @ TrialShopy** | Finalist - **Byteverse’24** | Top 130 - **Amazon HackOn S5**
+- 🛠️ Contributor to open source & college-wide tech initiatives
 
-<picture>
+---
+
+## 🧙‍♂️ The Spellbook I Code With
+
+<p>
+  <!-- ### 👨‍💻 Languages -->
+  <img src="https://img.shields.io/badge/Python-3776AB?style=flat&logo=python&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Java-007396?style=flat&logo=java&logoColor=white"/>
+  <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=flat&logo=javascript&logoColor=black"/>
+  <img src="https://img.shields.io/badge/TypeScript-3178C6?style=flat&logo=typescript&logoColor=white"/>
+  <img src="https://img.shields.io/badge/C-00599C?style=flat&logo=c&logoColor=white"/>
+  <img src="https://img.shields.io/badge/SQL-4479A1?style=flat&logo=mysql&logoColor=white"/>
+
+  <!-- ### 🌐 Web Development -->
+  <img src="https://img.shields.io/badge/Next.js-000000?style=flat&logo=next.js&logoColor=white"/>
+  <img src="https://img.shields.io/badge/React-20232A?style=flat&logo=react&logoColor=61DAFB"/>
+  <img src="https://img.shields.io/badge/Astro-FF5D01?style=flat&logo=astro&logoColor=white"/>
+  <img src="https://img.shields.io/badge/TailwindCSS-38B2AC?style=flat&logo=tailwind-css&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Flask-000000?style=flat&logo=flask&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Spring%20Boot-6DB33F?style=flat&logo=spring-boot&logoColor=white"/>
+
+  <!-- ### ### 🧠 AI/ML & Generative AI -->
+  <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=flat&logo=tensorflow&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Keras-D00000?style=flat&logo=keras&logoColor=white"/>
+  <img src="https://img.shields.io/badge/HuggingFace-FFD21F?style=flat&logo=huggingface&logoColor=black"/>
+  <img src="https://img.shields.io/badge/LangChain-006400?style=flat&logo=chainlink&logoColor=white"/>
+  <img src="https://img.shields.io/badge/OpenCV-5C3EE8?style=flat&logo=opencv&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Scikit--learn-F7931E?style=flat&logo=scikit-learn&logoColor=white"/>
+
+<!-- ### ☁️ DevOps & Cloud -->
+  <img src="https://img.shields.io/badge/Docker-2496ED?style=flat&logo=docker&logoColor=white"/>
+  <img src="https://img.shields.io/badge/GitHub%20Actions-2088FF?style=flat&logo=github-actions&logoColor=white"/>
+  <img src="https://img.shields.io/badge/AWS-232F3E?style=flat&logo=amazon-aws&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Vercel-000000?style=flat&logo=vercel&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Render-46E3B7?style=flat&logo=render&logoColor=white"/>
+
+<!-- ### 🗃️ Databases -->
+   <img src="https://img.shields.io/badge/PostgreSQL-336791?style=flat&logo=postgresql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MySQL-4479A1?style=flat&logo=mysql&logoColor=white"/>
+  <img src="https://img.shields.io/badge/MongoDB-47A248?style=flat&logo=mongodb&logoColor=white"/>
+  <img src="https://img.shields.io/badge/Redis-DC382D?style=flat&logo=redis&logoColor=white"/>
+
+<!-- ### 🧰 Tools & IDEs -->
+  <img src="https://img.shields.io/badge/Postman-FF6C37?style=flat&logo=postman&logoColor=white"/>
+  <img src="https://img.shields.io/badge/VSCode-007ACC?style=flat&logo=visual-studio-code&logoColor=white"/>
+  <img src="https://img.shields.io/badge/IntelliJ%20IDEA-000000?style=flat&logo=intellij-idea&logoColor=white"/>
+</p>
+
+---
+
+## 📈 GitHub Stats
+  
+  [![trophy](https://github-profile-trophy.vercel.app/?username=AashishKumarSingh1&title=-PullRequest,-Issues,-Followers,-Stars&theme=onedark)](https://github.com/ryo-ma/github-profile-trophy)
+
+  <picture>
   <source srcset="https://github-readme-stats.vercel.app/api?username=AashishKumarSingh1&show_icons=true&theme=dark" media="(prefers-color-scheme: dark)" />
   <source srcset="https://github-readme-stats.vercel.app/api?username=AashishKumarSingh1&show_icons=true" media="(prefers-color-scheme: light), (prefers-color-scheme: no-preference)" />
   <img src="https://github-readme-stats.vercel.app/api?username=AashishKumarSingh1&show_icons=true" />
@@ -54,41 +92,18 @@ I am a second-year student pursuing my degree in **Computer Science and Engineer
 
 [![Top Langs](https://github-readme-stats.vercel.app/api/top-langs/?username=AashishKumarSingh1&layout=pie&theme=dark)](https://github.com/anuraghazra/github-readme-stats)
 
------
-## Tech Stack Overview
-### Programming Language
-- **Python**
-- **Java**
-- **JavaScript**
-- **C**
 
-### Web Development
-- **Frontend** : Next.js,React.js,Tailwind CSS,JavaScript,HTML,CSS
-- **Backend** : Node.js,Express.js,TypeScript,Flask
-- **Database** : MongoDB, MySQL
-- **Real-time Communication** :WebSockets,Socket.IO,WebRTC
+---
 
-### Artificial Intelligence,Machine Learning & Generative AI
-- **Deep Learning**:Tensorflow,Keras
-- **Generative AI**:Hugging Face,Langchain
-- **Computer Vision**:Open CV
-- **Natural Language Processing (NLP)**:Hugging Face,Transformer
-- **Models work on**: Vision Transformer,Patch Encoding,Dynamic Convolution & Spatial Convulation,CNN,RNN
+## 🚀 Featured Projects
 
-### Tools & DevOps
-- **Version Control**:Git, GitHub
-- **Cloud & Deployment**:Vercel,Render
-- **Development Tools**:MySQL Workbench, VS Code, MongoDB Atlas
-------
-## Contact
+| Project | Description | Tech Stack |
+|--------|-------------|------------|
+|[**VaultX**](http://vaultx.aashishsingh.tech/) | A secure, scalable portfolio manager with isolated subdomains and custom domain support. Features OAuth2, session control, and high-performance offline-ready rendering using cloud-native infrastructure. | Astro, Spring Boot, PostgreSQL, Docker, AWS, Tailwind CSS |
+|[**PayVault.ai**](https://payvaultai.vercel.app/) | AI-powered platform for financial automation. Includes invoice parsing, offline-first payments, secure AES encryption, and dynamic analytics. | Next.js, Tailwind CSS, TypeScript, Vercel, Node.js, MongoDB |
+|[**AashLang**](https://aashlang.onrender.com/) | A custom-built programming language with its own compiler and interpreter. Features browser execution, unique syntax, and full documentation. | Python, Flask, Next.js, TypeScript, Tailwind CSS |
+|[**Sortinger**](https://sortinger.onrender.com) | Real-time sorting algorithm visualizer with animations, complexity insights, and educational interaction. | Next.js, Flask, Python, Tailwind CSS |
 
-I'm always excited to connect with like-minded individuals, collaborate on projects, or discuss potential opportunities. Feel free to reach out to me through the following platforms:
+---
 
-- **Email**: [aashishs.ug23.cs@nitp.ac.in](mailto:aashishs.ug23.cs@nitp.ac.in)
-- **LinkedIn**: [Aashish Kumar Singh](https://www.linkedin.com/in/aashish-kumar-singh-7110b02a9)
-- **GitHub**: [AashishKumarSingh1](https://github.com/AashishKumarSingh1)
-
-## ⭐ If you like my work, consider giving a star! 🌟
-
-### Profile Views
-![](https://komarev.com/ghpvc/?username=AashishKumarSingh1&color=green)
+> ## ⭐ If you like my work, consider giving a star! 🌟
