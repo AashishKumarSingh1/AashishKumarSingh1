@@ -99,7 +99,7 @@
 
 | Project | Description | Tech Stack |
 |--------|-------------|------------|
-|[**VaultX**](http://vaultx.aashishsingh.tech/) | A secure, scalable portfolio manager with isolated subdomains and custom domain support. Features OAuth2, session control, and high-performance offline-ready rendering using cloud-native infrastructure. | Astro, Spring Boot, PostgreSQL, Docker, AWS, Tailwind CSS |
+|[**VaultX**](https://aashishsingh.tech/dashboard/1) | A secure, scalable portfolio manager with isolated subdomains and custom domain support. Features OAuth2, session control, and high-performance offline-ready rendering using cloud-native infrastructure. | Astro, Spring Boot, PostgreSQL, Docker, AWS, Tailwind CSS |
 |[**PayVault.ai**](https://payvaultai.vercel.app/) | AI-powered platform for financial automation. Includes invoice parsing, offline-first payments, secure AES encryption, and dynamic analytics. | Next.js, Tailwind CSS, TypeScript, Vercel, Node.js, MongoDB |
 |[**AashLang**](https://aashlang.onrender.com/) | A custom-built programming language with its own compiler and interpreter. Features browser execution, unique syntax, and full documentation. | Python, Flask, Next.js, TypeScript, Tailwind CSS |
 |[**Sortinger**](https://sortinger.onrender.com) | Real-time sorting algorithm visualizer with animations, complexity insights, and educational interaction. | Next.js, Flask, Python, Tailwind CSS |
